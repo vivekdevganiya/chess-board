@@ -1,0 +1,29 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.chess-board {
+    width: 320px; 
+    height: 320px; 
+    border: 2px solid #121212;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.light {
+    background-color: grey;
+}
+
+.dark {
+    background-color: whitesmoke;
+}
